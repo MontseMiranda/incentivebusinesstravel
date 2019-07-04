@@ -67,10 +67,25 @@ library(timevis)
     Double room for single use buffet breakfast included €150
     Double room for double use buffet breakfast included €170
     City tax (per preson per day) €1,21
-    Option dated shared with other agency, which has requested the same group
+    Option dated shared with other agency, which has requested the same group until 11th July
   <br>
   
+
+#### **HOTEL TRYP CONDAL MAR**
+
+
+```{r child='TrypCondalMar.Rmd'}
+
+```
+
+  <br> 
   
+    Rates in Tryp Condal Mar per room per night:
+    Double room for single use buffet breakfast included €165
+    Double room for double use buffet breakfast included €181,50
+    City tax (per preson per day) €1,21
+    Option dated shared with other agency, which has requested the same group until 11th July
+  <br>  
 
 *****
 
