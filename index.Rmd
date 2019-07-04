@@ -1,0 +1,96 @@
+---
+title: "INCENTIVE BARCELONA 45 PAX"
+author: "BUSINESS TRAVEL CORPORATE"
+date: 'September 25th to 27th 2019'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+library(timevis)
+
+```
+
+## Accommodation
+
+### **HOTEL BARCELO RAVAL**
+
+
+```{r child='BarceloRaval.Rmd'}
+
+```
+
+  <br>
+  
+    Rates in Barcelo Raval per room per night:
+    Double room for single use buffet breakfast included €210
+    Double room for double use buffet breakfast included €230
+    City tax (per preson per day) €1,21
+    Option dated July 8th
+  <br>
+  
+
+### Alternative Hotels {.tabset .tabset-fade .tabset-pills}
+
+#### **HOTEL CATALONIA PUTXET**
+
+
+```{r child='CataloniaPutxet.Rmd'}
+
+```
+
+  <br> 
+  
+    Rates in Catalonia Putxet per room per night:
+    Double room for single use buffet breakfast included €150
+    Double room for double use buffet breakfast included €170
+    City tax (per preson per day) €1,21
+    Option dated shared with other agency, which has requested the same group
+  <br>
+  
+  
+
+*****
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for Business Travel Corporate
+  
+  * For a group of minimum 45 pax.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+
